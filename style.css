@@ -15,7 +15,7 @@ body {
 
 .ellipse {
     width: 380px;
-    height: 60vh;
+    height: 50vh;
 }
 
 .ellipse1 {
@@ -45,9 +45,8 @@ body {
 img {
     z-index: 40;
     margin-top: 5vh;
-    width: 30vh;
+    width: 40vh;
     height: auto;
-    max-width: 80%;
 }
 
 .ellipse3 {
@@ -63,11 +62,17 @@ img {
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
-    padding: 0 20px;
     margin-bottom: 50px;
+    width: 100%;
+    height: 50vh;
+}
+
+P{
+    padding: 0 10px;
 }
 
 button {
@@ -76,6 +81,5 @@ button {
     font-family: 'Almarai';
     padding: 8px 30px;
     border: none;
-    margin-top: 30px;
     border-radius: 20px;
 }
