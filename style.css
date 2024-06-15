@@ -117,7 +117,7 @@ img {
     z-index: 30;
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 600px) {
     .lower-text {
         visibility: hidden;
     }
