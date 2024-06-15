@@ -5,25 +5,96 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+        <script
+            src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
     </head>
     <body>
         <div class="main">
-            <div class="ellipse">
-                <div class="ellipse1">
-                    <div class="voice-assistance">
-                        <img src="https://i.postimg.cc/DZ7jGbc6/logo.png" alt />
+            <h2>How may help you ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                quibusdam numquam laborum quis veniam. Necessitatibus cum
+                placeat voluptatum corrupti maiores.numquam laborum quis veniam.
+                Necessitatibus cum placeat voluptatum corrupti maiores.</p>
+            <div id="siri-container"></div>
+            <div class="lower-portion">
+                <div class="column">
+                    <div class="lower-text">
+                        <h3>Please Speaking</h3>
+                        <p>We are listening...</p>
+                    </div>
+                    <div class="lower-buttons">
+                        <div>
+                            <svg viewBox="0 0 50.8 50.8"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xml:space="preserve" fill="#000000"
+                                stroke="#000000"><g id="SVGRepo_bgCarrier"
+                                    stroke-width="0"></g><g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></g><g
+                                    id="SVGRepo_iconCarrier"><path
+                                        d="M15.478 32.28h19.844"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></path><circle
+                                        cx="11.642" cy="19.579" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="18.521" cy="19.579" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="25.4" cy="19.579" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="32.279" cy="19.579" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="39.158" cy="19.579" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="11.642" cy="26.458" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="18.521" cy="26.458" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="25.4" cy="26.458" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="32.279" cy="26.458" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><circle
+                                        cx="39.158" cy="26.458" r="2.117"
+                                        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></circle><rect
+                                        width="39.158" height="23.283" x="5.821"
+                                        y="13.758" rx="1.468" ry="1.397"
+                                        style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"></rect></g></svg>
+                        </div>
+
+                        <div>
+                            <div class="ellipse">
+                                <div class="ellipse1"></div>
+                                <div class="ellipse2"></div>
+                                <div class="ellipse3"></div>
+                                <img src="https://i.postimg.cc/DZ7jGbc6/logo.png" alt />
+                            </div>
+                        </div>
+
+                        <div>
+                            <svg fill="#ffffff" viewBox="0 0 32 32"
+                                xmlns="http://www.w3.org/2000/svg"
+                                stroke="#ffffff"><g id="SVGRepo_bgCarrier"
+                                    stroke-width="0"></g><g
+                                    id="SVGRepo_tracerCarrier"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"></g><g
+                                    id="SVGRepo_iconCarrier"> <path
+                                        d="M18.8,16l5.5-5.5c0.8-0.8,0.8-2,0-2.8l0,0C24,7.3,23.5,7,23,7c-0.5,0-1,0.2-1.4,0.6L16,13.2l-5.5-5.5 c-0.8-0.8-2.1-0.8-2.8,0C7.3,8,7,8.5,7,9.1s0.2,1,0.6,1.4l5.5,5.5l-5.5,5.5C7.3,21.9,7,22.4,7,23c0,0.5,0.2,1,0.6,1.4 C8,24.8,8.5,25,9,25c0.5,0,1-0.2,1.4-0.6l5.5-5.5l5.5,5.5c0.8,0.8,2.1,0.8,2.8,0c0.8-0.8,0.8-2.1,0-2.8L18.8,16z"></path>
+                                </g></svg>
+                        </div>
                     </div>
                 </div>
-                <div class="ellipse2"></div>
-                <div class="ellipse3"></div>
-            </div>
-            <div class="content">
-                <h1>Welcome Jarvis !</h1>
-                <p>I’m your virtual assistance and I’m here to here you Just click and ask your question <br>
-                    Let’s embark on this journey together
-                </p>
-                <button>Get Started</button>
             </div>
         </div>
+
+        <script>
+            var siriWave = new SiriWave({
+                container: document.getElementById("siri-container"),
+                width: 640,
+                height: 120,
+                speed: 0.1,
+                style: 'ios9',
+                amplitude: 2,
+            });
+        </script>
     </body>
 </html>
