@@ -65,7 +65,8 @@ svg {
 }
 
 .lower-portion {
-margin-top: 9dvh;
+    position: absolute;
+    bottom: 4dvh;
 }
 
 .lower-buttons {
