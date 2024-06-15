@@ -113,16 +113,39 @@ svg {
     background: linear-gradient(137.12deg, #11195F 50.25%, rgb(50, 44, 164) 106.57%);
 }
 
-img {
+.voice-icon {
     position: absolute;
     width: 18dvh;
     height: 18dvh;
     z-index: 30;
-    animation: spin 1s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+.shape11,
+.shape9,
+.shpae7 {
+    animation: move 2s infinite;
+}
+
+.shape3,
+.shape5,
+.shape1,
+.shape10 {
+    animation: rightMove 2s infinite;
+}
+
+.shape2,
+.shape6 {
+    animation: reverseMove 1.5s infinite;
+}
+
+.shape4,
+.shape8 {
+    animation: leftMove 3s infinite;
 }
 
 .pulse {
-    animation: pulse-animation 2s infinite;
+    animation: pulse-animation 3s infinite;
 }
 
 @keyframes pulse-animation {
@@ -132,6 +155,66 @@ img {
 
     100% {
         box-shadow: 0 0 0 30px rgba(25, 40, 156, 0);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        translate: -20px 40px;
+        transform: rotateX(-45deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes reverseMove {
+    0% {
+        translate: 0px;
+    }
+
+    50% {
+        translate: -20px 40px;
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        translate: 0;
+    }
+}
+
+@keyframes leftMove {
+    0% {
+        translate: 0px;
+    }
+
+    50% {
+        translate: -10px -20px;
+        transform: rotate(15deg);
+    }
+
+    100% {
+        translate: 0;
+    }
+}
+
+@keyframes rightMove {
+    0% {
+        translate: 0px;
+    }
+
+    50% {
+        translate: -30 -10px;
+        transform: rotate3d(-5deg);
+    }
+
+    100% {
+        translate: 0;
     }
 }
 
