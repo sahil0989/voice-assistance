@@ -122,15 +122,12 @@ svg {
 }
 
 .shape11,
-.shape9,
 .shape7 {
     animation: move 2s infinite ease-in-out;
 }
 
 .shape3,
-.shape5,
-.shape1,
-.shape10 {
+.shape1{
     animation: rightMove 3s infinite ease-in-out;
 }
 
@@ -140,7 +137,7 @@ svg {
 }
 
 .shape4,
-.shape8 {
+.shape5 {
     animation: leftMove 4s infinite ease-in-out;
 }
 
